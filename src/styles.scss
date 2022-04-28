@@ -1,0 +1,40 @@
+
+
+tr > th {
+    min-width: 90px;
+  }
+  
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border: 1px solid black !important;
+    padding: 2em 0.2em;
+
+  
+    
+  }
+
+  td {
+      width: 100px;
+      height: 100px;
+  }
+
+  th {
+    min-width: 130px;
+  }
+  
+  td.disable {
+    color: rgb(107, 107, 107);
+  
+  }
+  
+  td.today {
+    color: red;
+  
+  }
+
+@import "~bulma/bulma.sass";
+
+
+
