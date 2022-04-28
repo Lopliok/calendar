@@ -28,7 +28,6 @@ const Calendar = ({ onDayClick = (cell: any) => { } }) => {
 
     const onCellClick = (cell: any) => {
 
-        console.log(cell)
         onDayClick(cell)
     }
 
